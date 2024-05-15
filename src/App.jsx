@@ -34,6 +34,17 @@ const App = () => {
           Red
         </button>
       </div>
+      <div className="space-x-4 flex gap-8 justify-center items-center mt-[20px]">
+        <button className="bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-full transition duration-300" onClick={() => changeColor('bg-white')} >
+          -
+        </button>
+        <button className="bg-green-500 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full transition duration-300" onClick={() => changeColor('bg-gwhite')}>
+          -  
+        </button>
+        <button className="bg-red-500 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-full transition duration-300" onClick={() => changeColor('bg-white')}>
+         -
+        </button>
+      </div>
     </div>
   );
 };
